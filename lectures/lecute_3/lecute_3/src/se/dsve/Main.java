@@ -83,21 +83,6 @@ public class Main {
 
         System.out.println("-------------------------------------------");
 
-        Dog dog = new Dog("Freja ", 8);
-
-        Dog replikaDog1 = dog;
-        Dog replikaDog2 = dog;
-
-        replikaDog2.name = "Wolfie";
-        replikaDog1.name = "smile.jpg";
-        dog1.bark();
-        replikaDog1.bark();
-        replikaDog2.bark();
-
-        dog.dogInfo();
-
-
-
     }
 
 }
